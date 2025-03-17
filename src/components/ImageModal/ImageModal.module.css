@@ -1,3 +1,33 @@
+.modal {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+}
+  
+  .imageModalCloseBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+  
+  .modalImage {
+    background-color: white;
+    max-width: 100%;
+    max-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
 .overlay {
     background-color: rgba(0, 0, 0, 0.75);
     position: fixed;
@@ -8,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   
   .modal {
     position: relative;
@@ -18,7 +48,7 @@
     max-width: 90%;
     max-height: 90%;
     overflow: auto;
-  }
+ }
   
   .imageModalCloseBtn {
     position: absolute;
@@ -28,7 +58,7 @@
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-  }
+}
   
   .modalImage {
     background-color: white;
@@ -38,7 +68,8 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-  }.overlay {
+}
+.overlay {
     background-color: rgba(0, 0, 0, 0.75);
     position: fixed;
     top: 0;
@@ -48,34 +79,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .modal {
-    position: relative;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 90%;
-    max-height: 90%;
-    overflow: auto;
-  }
-  
-  .imageModalCloseBtn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-  
-  .modalImage {
-    background-color: white;
-    max-width: 100%;
-    max-height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
+}

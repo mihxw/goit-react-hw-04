@@ -1,3 +1,9 @@
+.imageGalleryItem {
+    height: 250px;
+    flex-basis: calc((100% - 20px) / 3);
+    overflow: hidden;
+}
+  
 .imageGalleryList {
     padding: 26px;
     max-width: 1200px;
@@ -5,10 +11,5 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-  }
+}
   
-  .imageGalleryItem {
-    height: 250px;
-    flex-basis: calc((100% - 20px) / 3);
-    overflow: hidden;
-  }
